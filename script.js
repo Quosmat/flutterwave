@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         // Add an event listener for when the user clicks the submit button to pay
         document.getElementById("submit").addEventListener("click", (e) => {
             e.preventDefault();
-            const PBFKey = "<FLWPUBK_TEST-972f0430ca824e967dc0d854344b2fdb-X>"; // paste in the public key from your dashboard here
+            const PBFKey = ""; // paste in the public key from your dashboard here
             const txRef = ''+Math.floor((Math.random() * 1000000000) + 1); //Generate a random id for the transaction reference
             const email = document.getElementById('email').value;
             const phone = document.getElementById('phone').value;
