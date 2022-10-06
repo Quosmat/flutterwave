@@ -1,4 +1,5 @@
 <script>
+
 document.addEventListener("DOMContentLoaded", (event) => {
         // Add an event listener for when the user clicks the submit button to pay
         document.getElementById("submit").addEventListener("click", (e) => {
